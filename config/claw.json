@@ -39,7 +39,7 @@
               "cacheRead": 0,
               "cacheWrite": 0
             },
-            "contextWindow": 131072,
+            "contextWindow": 1048576,
             "maxTokens": 32768
           },
           {
@@ -56,7 +56,7 @@
               "cacheRead": 0,
               "cacheWrite": 0
             },
-            "contextWindow": 131072,
+            "contextWindow": 1048576,
             "maxTokens": 32768
           },
           {
@@ -73,7 +73,7 @@
               "cacheRead": 0,
               "cacheWrite": 0
             },
-            "contextWindow": 131072,
+            "contextWindow": 1048576,
             "maxTokens": 32768
           },
           {
@@ -124,8 +124,8 @@
               "cacheRead": 0,
               "cacheWrite": 0
             },
-            "contextWindow": 196608,
-            "maxTokens": 32768
+            "contextWindow": 1048576,
+            "maxTokens": 524288
           },
           {
             "id": "Doubao-Seed-2.0-pro",
@@ -141,8 +141,8 @@
               "cacheRead": 0,
               "cacheWrite": 0
             },
-            "contextWindow": 131072,
-            "maxTokens": 32768
+            "contextWindow": 262144,
+            "maxTokens": 16384
           },
           {
             "id": "Doubao-Seed-2.0-Code",
@@ -158,8 +158,8 @@
               "cacheRead": 0,
               "cacheWrite": 0
             },
-            "contextWindow": 131072,
-            "maxTokens": 32768
+            "contextWindow": 262144,
+            "maxTokens": 16384
           }
         ]
       }
