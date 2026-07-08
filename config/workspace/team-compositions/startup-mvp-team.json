@@ -1,0 +1,48 @@
+{
+  "name": "Startup MVP 冲刺团队",
+  "description": "快速构建 MVP 产品，适合创业初期快速验证",
+  "trigger": ["做MVP", "快速上线", "创业项目", "快速验证", "MVP开发"],
+  "leader": "慧妃",
+  "agents": [
+    {
+      "id": "慧妃",
+      "role": "技术架构 + 开发执行",
+      "responsibilities": ["技术选型", "架构设计", "核心开发", "技术债务管理"]
+    },
+    {
+      "id": "仪妃",
+      "role": "UI/UX 设计",
+      "responsibilities": ["界面设计", "用户体验", "交互设计", "视觉规范"]
+    },
+    {
+      "id": "昭妃",
+      "role": "项目调度 + 进度把控",
+      "responsibilities": ["任务分配", "进度跟踪", "资源协调", "风险管理"]
+    },
+    {
+      "id": "司证师",
+      "role": "质量验证 + 风险审计",
+      "responsibilities": ["质量审计", "问题发现", "风险预警", "回归验证"]
+    }
+  ],
+  "workflow": "慧妃开发 → 仪妃设计 → 昭妃调度 → 司证师验证",
+  "success_criteria": [
+    "MVP 成功上线",
+    "首批用户反馈收集完成",
+    "核心功能可用性 ≥ 90%",
+    "技术债务可控"
+  ],
+  "estimated_duration": "2-4 周",
+  "key_metrics": {
+    "delivery_time": "≤4 周",
+    "quality_score": "≥8/10",
+    "user_satisfaction": "≥4.0/5",
+    "bug_rate": "≤5 个 Critical"
+  },
+  "collaboration_rules": [
+    "每日站会同步进度",
+    "每周代码审查",
+    "设计评审前置",
+    "质量审计贯穿全程"
+  ]
+}

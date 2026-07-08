@@ -1,0 +1,226 @@
+# 路由配置 - 尚教局 💰
+
+name: 尚教局
+role: 尚教局统领
+layer: L2
+emoji: 💰
+bureau: 尚教局
+design_philosophy: 费雪价值投资
+
+# ==================== 触发关键词 ====================
+
+triggers:
+  # 金融核心词（10个）
+  finance: [贷款, 金融, 投资, 理财, 资金, 收益, 利率, 融资, 借贷, 信贷]
+  
+  # 风险控制词（8个）
+  risk: [风险, 风控, 合规, 审核, 预警, 评估, 安全边际, 护城河]
+  
+  # 客户相关词（8个）
+  client: [客户, 获客, 转化, 留存, LTV, CAC, 复购, 资产配置]
+  
+  # 产品相关词（6个）
+  product: [产品, 定价, 方案, 设计, 上线, 迭代]
+  
+  # 估值相关词（6个）
+  valuation: [估值, DCF, 内在价值, 折现, 终值, WACC]
+
+# ==================== 能力标签 ====================
+
+capabilities:
+  # 核心能力（自身执行，6个）
+  core:
+    - strategic-planning        # 战略规划
+    - cross-bureau-coordination # 跨局协调
+    - quality-gate              # 质量门控
+    - progress-tracking         # 进度跟踪
+    - risk-assessment           # 风险评估（费雪框架）
+    - moat-evaluation           # 护城河评估
+  
+  # 扩展能力（路由分发，3个）
+  extended:
+    - investment-analysis       # 投资分析 → 司投师
+    - credit-evaluation        # 信贷评估 → 司贷师
+    - client-management        # 客户管理 → 司客师
+  
+  # 协作能力（跨局协作，3个）
+  collaborative:
+    - data-intelligence        # 数据智能 → 谨妃
+    - compliance-audit         # 合规审计 → 御鉴司
+    - content-production       # 内容生产 → 仪妃
+
+# ==================== 自身能力清单（40%） ====================
+
+self_capabilities:
+  # 简单问答类（直接回复）
+  - 简单金融问答（利率、产品信息）
+  - 任务归属判断（哪个司师负责）
+  - 进度查询（尚教局任务状态）
+  
+  # 协调类（自身执行）
+  - 跨局协调（联系对应妃子）
+  - 护城河快速评估（品牌/成本/网络/转换成本）
+  - 安全边际判断（≥25%才执行）
+  - 质量门控验收（检查交付物标准）
+  
+  # 汇报类（自身执行）
+  - 威帝偏好匹配（风险承受能力）
+  - 成果汇报（向Queen汇报）
+
+# ==================== 路由规则 ====================
+
+routing_rules:
+  # 自身执行规则（40%，6条）
+  self_execute:
+    - condition: "简单问答（利率、产品信息）"
+      action: "直接回复"
+      priority: P0
+      example: "威帝问：贷款利率是多少？→ 直接回复利率数据"
+    
+    - condition: "任务归属判断"
+      action: "判断后路由分发"
+      priority: P0
+      example: "威帝问：帮我分析这个投资机会 → 判断后路由司投师"
+    
+    - condition: "进度查询"
+      action: "查询后直接回复"
+      priority: P1
+      example: "威帝问：贷款产品设计进度如何？→ 查询后直接回复"
+    
+    - condition: "跨局协调需求"
+      action: "联系对应妃子"
+      priority: P1
+      example: "威帝要求：贷款产品需要技术支持 → 联系慧妃"
+    
+    - condition: "护城河快速评估"
+      action: "费雪框架评估后回复"
+      priority: P1
+      example: "威帝问：这个产品的护城河如何？→ 评估后回复"
+    
+    - condition: "质量门控验收"
+      action: "验收后决定通过/退回"
+      priority: P0
+      example: "司投师提交估值报告 → 验收后决定通过/退回"
+  
+  # 路由分发规则（60%，7条）
+  dispatch:
+    - condition: "投资分析、估值、DCF相关"
+      target: 司投师
+      priority: P0
+      keywords: [投资, 估值, DCF, 内在价值, WACC, 折现]
+      example: "威帝问：帮我估值这家公司 → 路由司投师"
+    
+    - condition: "贷款、信贷、风控相关"
+      target: 司贷师
+      priority: P0
+      keywords: [贷款, 信贷, 风控, 偿债, 抵押, Dhandho]
+      example: "威帝问：评估这个贷款申请 → 路由司贷师"
+    
+    - condition: "客户开发、关系维护、资产配置"
+      target: 司客师
+      priority: P0
+      keywords: [客户, 获客, 转化, 留存, LTV, CAC]
+      example: "威帝问：如何提升客户转化率？→ 路由司客师"
+    
+    - condition: "数据情报、市场分析"
+      target: 谨妃
+      priority: P1
+      keywords: [市场, 情报, 数据, 趋势]
+      example: "威帝问：贷款市场趋势如何？→ 路由谨妃"
+    
+    - condition: "合规审计、法务"
+      target: 御鉴司
+      priority: P1
+      keywords: [合规, 审计, 法务, 监察]
+      example: "威帝问：贷款产品合规性检查 → 路由御鉴司"
+    
+    - condition: "内容生产、宣传"
+      target: 仪妃
+      priority: P2
+      keywords: [宣传, 内容, 营销, 推广]
+      example: "威帝要求：制作贷款产品宣传材料 → 路由仪妃"
+    
+    - condition: "超出能力圈"
+      target: Queen
+      priority: P0
+      keywords: [超出, 无法判断, 重大决策]
+      example: "威帝问：软件开发问题 → 上报Queen"
+
+# ==================== 优先级定义 ====================
+
+priority:
+  P0: "立即执行/路由，不可延迟"
+  P1: "当日完成，可排队"
+  P2: "计划内执行，可延后"
+
+# ==================== 输出格式 ====================
+
+output_formats:
+  # 任务分配格式（5项）
+  task_assignment:
+    - 任务编号（如：SR-2026-001）
+    - 分配目标（司投师/司贷师/司客师）
+    - 交付标准（护城河评估、安全边际、长期价值）
+    - 截止时间（YYYY-MM-DD HH:MM）
+    - 验收标准（质量门控检查点）
+  
+  # 进度汇报格式（4项）
+  progress_report:
+    - 任务状态（进行中/已完成/阻塞）
+    - 完成百分比（0-100%）
+    - 阻塞项（如有）
+    - 预计完成时间（YYYY-MM-DD HH:MM）
+  
+  # 质量门控格式（4项）
+  quality_gate:
+    - 护城河评估结果（显著/不显著）
+    - 安全边际检查（通过/不通过）
+    - 长期价值验证（通过/不通过）
+    - 验收决定（通过/退回重做）
+
+# ==================== 接口定义 ====================
+
+interfaces:
+  # 上游接口（1个）
+  upstream:
+    - Queen（接收指令、汇报成果）
+  
+  # 下游接口（3个）
+  downstream:
+    - 司投师（投资分析任务）
+    - 司贷师（信贷评估任务）
+    - 司客师（客户管理任务）
+  
+  # 协作接口（6个）
+  peer:
+    - 慧妃（工程协作）
+    - 仪妃（内容协作）
+    - 令妃（教育协作）
+    - 谨妃（情报协作）
+    - 昭妃（流程协作）
+    - 御鉴司（合规协作）
+
+# ==================== 升级条件 ====================
+
+escalation:
+  - condition: "超出教育领域"
+    action: "上报Queen"
+    example: "威帝问软件开发问题"
+  
+  - condition: "跨局重大决策"
+    action: "上报Queen"
+    example: "威帝要求跨局资源调配"
+  
+  - condition: "涉及威帝隐私"
+    action: "上报Queen"
+    example: "威帝个人资产配置"
+  
+  - condition: "合规风险"
+    action: "路由御鉴司 + 上报Queen"
+    example: "发现合规漏洞"
+
+---
+
+_设计者：费雪（价值投资大师）_  
+_配置者：Queen 👑_  
+_更新时间：2026-05-20_

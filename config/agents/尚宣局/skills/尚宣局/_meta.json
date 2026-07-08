@@ -1,0 +1,8 @@
+{
+  "name": "尚宣局",
+  "version": "1.0.0",
+  "description": "自媒体运营Agent，负责内容创作、平台运营、视频制作",
+  "author": "Queen",
+  "tags": ["media", "social-media", "content", "operations", "video"],
+  "enabled": true
+}

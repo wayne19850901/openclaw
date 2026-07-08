@@ -9,3 +9,6 @@ Thumbs.db
 # Script cache
 scripts/__pycache__/
 *.pyc
+
+# 便携配置 - 排除会话历史
+config/agents/main/sessions/

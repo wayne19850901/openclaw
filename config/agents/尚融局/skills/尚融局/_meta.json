@@ -1,0 +1,8 @@
+{
+  "name": "尚融局",
+  "version": "1.0.0",
+  "description": "金融贷款业务Agent，负责销售获客、团队管理、财务分析",
+  "author": "Queen",
+  "tags": ["finance", "loan", "sales", "management"],
+  "enabled": true
+}

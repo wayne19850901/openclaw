@@ -1,0 +1,8 @@
+{
+  "ownerId": "kn79hfhk5jpe8vwz4ggq48xhx580y49s",
+  "slug": "unified-doc-processor",
+  "version": "1.0.0",
+  "publishedAt": 1747468800000,
+  "replaces": ["ocr-space", "pdf-extract"],
+  "description": "统一文档处理器 - 图片OCR识别 + PDF文本提取"
+}

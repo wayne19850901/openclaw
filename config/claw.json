@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.23",
+    "lastTouchedAt": "2026-04-26T16:33:05.007Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-08T10:52:23.554Z",
+    "lastRunVersion": "2026.4.8",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "anthropic:manual": {
+        "provider": "anthropic",
+        "mode": "token"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "volcengine-ark": {
+        "api": "openai-completions",
+        "apiKey": "39e55e41-b342-4a1e-9064-ba1c598ee413",
+        "baseUrl": "https://ark.cn-beijing.volces.com/api/coding/v3",
+        "models": [
+          {
+            "id": "doubao-seed-2-1-pro-260628",
+            "name": "Doubao Seed 2.1 Pro",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "doubao-seed-2-1-turbo-260628",
+            "name": "Doubao Seed 2.1 Turbo",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "doubao-seed-2-0-pro-260215",
+            "name": "Doubao Seed 2.0 Pro",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "doubao-seed-2-0-code-preview-260215",
+            "name": "Doubao Seed 2.0 Code",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "doubao-seed-2-0-mini-260428",
+            "name": "Doubao Seed 2.0 Mini",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "doubao-seed-1-8-251228",
+            "name": "Doubao Seed 1.8",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "doubao-seed-1-6-251015",
+            "name": "Doubao Seed 1.6",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "doubao-seed-1-6-flash-250828",
+            "name": "Doubao Seed 1.6 Flash",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "doubao-seed-evolving",
+            "name": "Doubao Seed Evolving",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "deepseek-v4-pro-260425",
+            "name": "DeepSeek V4 Pro",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "deepseek-v4-flash-260425",
+            "name": "DeepSeek V4 Flash",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "volcengine-ark/doubao-seed-2-1-pro-260628",
+      "models": {
+        "volcengine-ark/doubao-seed-2-1-pro-260628": {},
+        "volcengine-ark/doubao-seed-2-1-turbo-260628": {},
+        "volcengine-ark/doubao-seed-2-0-pro-260215": {},
+        "volcengine-ark/doubao-seed-2-0-code-preview-260215": {},
+        "volcengine-ark/doubao-seed-2-0-mini-260428": {},
+        "volcengine-ark/doubao-seed-1-8-251228": {},
+        "volcengine-ark/doubao-seed-1-6-251015": {},
+        "volcengine-ark/doubao-seed-1-6-flash-250828": {},
+        "volcengine-ark/doubao-seed-evolving": {},
+        "volcengine-ark/deepseek-v4-pro-260425": {},
+        "volcengine-ark/deepseek-v4-flash-260425": {}
+      },
+      "workspace": "/Users/linwei/.claw/workspace",
+      "memorySearch": {
+        "enabled": true
+      },
+      "contextPruning": {
+        "mode": "cache-ttl",
+        "ttl": "1h"
+      },
+      "compaction": {
+        "mode": "safeguard",
+        "memoryFlush": {
+          "enabled": true,
+          "softThresholdTokens": 10000
+        },
+        "notifyUser": true
+      },
+      "heartbeat": {
+        "every": "1h"
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "web": {},
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "8628515646:AAGjqZ-84vYbpLp_eirR6avBseYHvwLMbwk",
+      "groupPolicy": "open",
+      "streaming": {
+        "mode": "partial"
+      }
+    },
+    "feishu": {
+      "appId": "cli_a9245ebb8078dcc5",
+      "appSecret": "veVguagwcCQduAe3UKF03gGI6mXiULFQ",
+      "enabled": true
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "7ca119883168174608d9015dae9f7e6912dd1fefc3b3e568"
+    }
+  },
+  "plugins": {
+    "slots": {
+      "memory": "memory-lancedb"
+    },
+    "entries": {
+      "feishu": {
+        "enabled": true
+      },
+      "telegram": {
+        "enabled": true
+      },
+      "memory-lancedb": {
+        "enabled": true,
+        "config": {
+          "embedding": {
+            "apiKey": "fda944bb-9fc2-4a2e-b367-a8b44d0ecb02",
+            "model": "text-embedding-3-small"
+          }
+        }
+      },
+      "anthropic": {
+        "enabled": true
+      },
+      "volcengine": {
+        "enabled": false
+      }
+    }
+  }
+}
