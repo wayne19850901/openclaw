@@ -31,7 +31,9 @@
             "api": "openai-completions",
             "reasoning": false,
             "input": [
-              "text"
+              "text",
+              "image",
+              "video"
             ],
             "cost": {
               "input": 0,
@@ -48,7 +50,9 @@
             "api": "openai-completions",
             "reasoning": false,
             "input": [
-              "text"
+              "text",
+              "image",
+              "video"
             ],
             "cost": {
               "input": 0,
@@ -65,7 +69,8 @@
             "api": "openai-completions",
             "reasoning": false,
             "input": [
-              "text"
+              "text",
+              "image"
             ],
             "cost": {
               "input": 0,
@@ -82,7 +87,9 @@
             "api": "openai-completions",
             "reasoning": false,
             "input": [
-              "text"
+              "text",
+              "image",
+              "video"
             ],
             "cost": {
               "input": 0,
@@ -99,7 +106,9 @@
             "api": "openai-completions",
             "reasoning": false,
             "input": [
-              "text"
+              "text",
+              "image",
+              "video"
             ],
             "cost": {
               "input": 0,
@@ -116,7 +125,9 @@
             "api": "openai-completions",
             "reasoning": false,
             "input": [
-              "text"
+              "text",
+              "image",
+              "video"
             ],
             "cost": {
               "input": 0,
@@ -133,7 +144,8 @@
             "api": "openai-completions",
             "reasoning": false,
             "input": [
-              "text"
+              "text",
+              "image"
             ],
             "cost": {
               "input": 0,
@@ -150,7 +162,8 @@
             "api": "openai-completions",
             "reasoning": false,
             "input": [
-              "text"
+              "text",
+              "image"
             ],
             "cost": {
               "input": 0,
