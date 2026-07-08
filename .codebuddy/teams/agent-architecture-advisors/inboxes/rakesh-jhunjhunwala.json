@@ -1,0 +1,38 @@
+[
+  {
+    "id": "msg-1779252035826-actdpx",
+    "from": "team-lead",
+    "to": "rakesh-jhunjhunwala",
+    "type": "message",
+    "content": "收到塔勒布的设计产出（司安师/司实师）。请继续提交司客师的设计（与阿克曼协调）。",
+    "timestamp": "2026-05-20T04:40:35.826Z",
+    "read": true
+  },
+  {
+    "id": "msg-1779252141858-58xxlh",
+    "from": "team-lead",
+    "to": "rakesh-jhunjhunwala",
+    "type": "message",
+    "content": "@bill-ackman 已完成司客师4支柱设计（Ackman激进主义视角），包含：\n- 支柱一：指令指南 - STAR原则 + 集中策略(≤20客户) + 品牌护城河\n- 支柱二：路由元数据 - YAML格式 + 80%自身能力 + 客户优先级路由\n- 支柱三：参考材料 - CLV模型、品牌护城河框架、资本纪律咨询\n- 支柱四：执行脚本 - 5阶段客户开发工作流\n\n现在请你基于你的印度价值投资哲学完成司客师设计补充，重点关注：\n1. 长期持有型客户关系（\"买入后持有\"式客户管理）\n2. 逆向思维客户开发（市场恐慌时寻找被低估客户）\n3. 耐心与信念（不追求数量，追求深度关系质量）\n\n请提交完整的4支柱设计产出。",
+    "timestamp": "2026-05-20T04:42:21.858Z",
+    "read": true
+  },
+  {
+    "id": "msg-1779253602008-8nel5i",
+    "from": "team-lead",
+    "to": "@team",
+    "type": "broadcast",
+    "content": "各位队友，当前 Phase 2 进度 7/19（36.8%）。已完成的有：费雪、德鲁肯米勒、估值分析师、技术面分析师、情绪分析师、金君瓦拉、帕布莱。\n\n还未提交产出的队友请尽快完成：\n- warren-buffett（贵妃 + 司投师）\n- charlie-munger（御鉴 + 司审师）\n- peter-lynch（仪妃 + 司策师）\n- cathie-wood（慧妃 + 司研师）\n- nassim-taleb（司安师 + 司实师）\n- ben-graham（司贷师）\n- bill-ackman（司客师）\n- aswath-damodaran（估值框架）\n- fundamentals-analyst（各司师基本面）\n- growth-analyst（司研师成长）\n- news-sentiment-analyst（司情师新闻）\n\n请各位尽快提交4支柱设计产出，格式参考已完成队友的产出。",
+    "timestamp": "2026-05-20T05:06:42.008Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1779273053217",
+    "from": "team-lead",
+    "to": "rakesh-jhunjhunwala",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1779273053217\",\"reason\":\"Phase 2 设计任务已完成，感谢贡献。现请求关闭。\",\"from\":\"team-lead\",\"timestamp\":\"2026-05-20T10:30:53.217Z\"}",
+    "timestamp": "2026-05-20T10:30:53.217Z",
+    "read": true
+  }
+]

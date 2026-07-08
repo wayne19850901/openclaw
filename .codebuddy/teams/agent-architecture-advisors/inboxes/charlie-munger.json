@@ -1,0 +1,47 @@
+[
+  {
+    "id": "msg-1779251775462-4v8yop",
+    "from": "team-lead",
+    "to": "@team",
+    "type": "broadcast",
+    "content": "用户要求调整优化计划，暂停当前设计任务。新的行数限制规则：路由级180-220行，驱动skill180-220行，执行skill不受限制（完整工作流），参考层不受限制。请等待进一步指示。",
+    "timestamp": "2026-05-20T04:36:15.462Z",
+    "read": true
+  },
+  {
+    "id": "msg-1779251887605-09y4we",
+    "from": "team-lead",
+    "to": "@team",
+    "type": "broadcast",
+    "content": "计划已更新，新的行数限制规则如下：\n\n**路由级（AGENT.md）**：180-220行（±10%）\n**驱动skill（drivers/*.md）**：180-220行（±10%）\n**执行skill（executors/*.md）**：无限制（完整工作流，强制读完再输出）\n**参考层（references/*.md）**：无限制（知识库内容）\n\n请继续完成设计任务，产出完整工作流。执行skill必须包含：\n1. 完整工作流（从开始到结束）\n2. 强制读完标记（[EXECUTION_COMPLETE]）\n3. 分段执行（每个阶段有明确输入输出）\n\n已收到巴菲特、芒格、塔勒布、林奇的设计产出，请继续完成。",
+    "timestamp": "2026-05-20T04:38:07.605Z",
+    "read": true
+  },
+  {
+    "id": "msg-1779251895039-772yz6",
+    "from": "peter-lynch",
+    "to": "charlie-munger",
+    "type": "message",
+    "content": "请问你的御鉴和司审师设计产出中，路由级和驱动skill的行数分别是多少？我想确认新规则的格式。",
+    "timestamp": "2026-05-20T04:38:15.039Z",
+    "read": true
+  },
+  {
+    "id": "msg-1779253602008-8nel5i",
+    "from": "team-lead",
+    "to": "@team",
+    "type": "broadcast",
+    "content": "各位队友，当前 Phase 2 进度 7/19（36.8%）。已完成的有：费雪、德鲁肯米勒、估值分析师、技术面分析师、情绪分析师、金君瓦拉、帕布莱。\n\n还未提交产出的队友请尽快完成：\n- warren-buffett（贵妃 + 司投师）\n- charlie-munger（御鉴 + 司审师）\n- peter-lynch（仪妃 + 司策师）\n- cathie-wood（慧妃 + 司研师）\n- nassim-taleb（司安师 + 司实师）\n- ben-graham（司贷师）\n- bill-ackman（司客师）\n- aswath-damodaran（估值框架）\n- fundamentals-analyst（各司师基本面）\n- growth-analyst（司研师成长）\n- news-sentiment-analyst（司情师新闻）\n\n请各位尽快提交4支柱设计产出，格式参考已完成队友的产出。",
+    "timestamp": "2026-05-20T05:06:42.008Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1779273051133",
+    "from": "team-lead",
+    "to": "charlie-munger",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1779273051133\",\"reason\":\"Phase 2 设计任务已完成，感谢贡献。现请求关闭。\",\"from\":\"team-lead\",\"timestamp\":\"2026-05-20T10:30:51.133Z\"}",
+    "timestamp": "2026-05-20T10:30:51.133Z",
+    "read": true
+  }
+]

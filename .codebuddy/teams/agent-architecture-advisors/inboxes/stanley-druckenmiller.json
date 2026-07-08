@@ -1,0 +1,29 @@
+[
+  {
+    "id": "msg-1779252029800-9bcqcr",
+    "from": "team-lead",
+    "to": "stanley-druckenmiller",
+    "type": "message",
+    "content": "收到塔勒布的设计产出（司安师/司实师）。请继续提交谨妃的设计。",
+    "timestamp": "2026-05-20T04:40:29.800Z",
+    "read": true
+  },
+  {
+    "id": "msg-1779253602008-8nel5i",
+    "from": "team-lead",
+    "to": "@team",
+    "type": "broadcast",
+    "content": "各位队友，当前 Phase 2 进度 7/19（36.8%）。已完成的有：费雪、德鲁肯米勒、估值分析师、技术面分析师、情绪分析师、金君瓦拉、帕布莱。\n\n还未提交产出的队友请尽快完成：\n- warren-buffett（贵妃 + 司投师）\n- charlie-munger（御鉴 + 司审师）\n- peter-lynch（仪妃 + 司策师）\n- cathie-wood（慧妃 + 司研师）\n- nassim-taleb（司安师 + 司实师）\n- ben-graham（司贷师）\n- bill-ackman（司客师）\n- aswath-damodaran（估值框架）\n- fundamentals-analyst（各司师基本面）\n- growth-analyst（司研师成长）\n- news-sentiment-analyst（司情师新闻）\n\n请各位尽快提交4支柱设计产出，格式参考已完成队友的产出。",
+    "timestamp": "2026-05-20T05:06:42.008Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1779273051974",
+    "from": "team-lead",
+    "to": "stanley-druckenmiller",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1779273051974\",\"reason\":\"Phase 2 设计任务已完成，感谢贡献。现请求关闭。\",\"from\":\"team-lead\",\"timestamp\":\"2026-05-20T10:30:51.974Z\"}",
+    "timestamp": "2026-05-20T10:30:51.974Z",
+    "read": true
+  }
+]

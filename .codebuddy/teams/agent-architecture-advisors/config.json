@@ -1,0 +1,28 @@
+{
+  "name": "agent-architecture-advisors",
+  "leadAgentId": "ed8cd8b9fcf146c7b4aad6544aff455f",
+  "workspacePath": "/Users/linwei/CodeBuddy/Claw",
+  "createdAt": "2026-05-20T04:34:56.627Z",
+  "options": {
+    "workspacePath": "/Users/linwei/CodeBuddy/Claw",
+    "isAutoTeam": false
+  },
+  "members": [
+    {
+      "memberId": "team-lead@agent-architecture-advisors",
+      "name": "team-lead",
+      "role": "Team Lead - coordinates the team and interacts with the user"
+    },
+    {
+      "memberId": "peter-lynch@agent-architecture-advisors",
+      "name": "peter-lynch",
+      "role": "林奇设计仪妃和司策师架构"
+    },
+    {
+      "memberId": "aswath-damodaran@agent-architecture-advisors",
+      "name": "aswath-damodaran",
+      "role": "达摩达兰设计估值框架"
+    }
+  ],
+  "isAutoTeam": false
+}

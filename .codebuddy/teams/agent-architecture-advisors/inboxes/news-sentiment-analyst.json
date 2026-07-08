@@ -1,0 +1,47 @@
+[
+  {
+    "id": "msg-1779252041739-zjub1x",
+    "from": "team-lead",
+    "to": "news-sentiment-analyst",
+    "type": "message",
+    "content": "收到塔勒布的设计产出（司安师/司实师）。请继续提交司情师新闻情绪框架的设计。",
+    "timestamp": "2026-05-20T04:40:41.739Z",
+    "read": true
+  },
+  {
+    "id": "msg-1779253602008-8nel5i",
+    "from": "team-lead",
+    "to": "@team",
+    "type": "broadcast",
+    "content": "各位队友，当前 Phase 2 进度 7/19（36.8%）。已完成的有：费雪、德鲁肯米勒、估值分析师、技术面分析师、情绪分析师、金君瓦拉、帕布莱。\n\n还未提交产出的队友请尽快完成：\n- warren-buffett（贵妃 + 司投师）\n- charlie-munger（御鉴 + 司审师）\n- peter-lynch（仪妃 + 司策师）\n- cathie-wood（慧妃 + 司研师）\n- nassim-taleb（司安师 + 司实师）\n- ben-graham（司贷师）\n- bill-ackman（司客师）\n- aswath-damodaran（估值框架）\n- fundamentals-analyst（各司师基本面）\n- growth-analyst（司研师成长）\n- news-sentiment-analyst（司情师新闻）\n\n请各位尽快提交4支柱设计产出，格式参考已完成队友的产出。",
+    "timestamp": "2026-05-20T05:06:42.008Z",
+    "read": true
+  },
+  {
+    "id": "msg-1779259230602-w3pvtx",
+    "from": "team-lead",
+    "to": "news-sentiment-analyst",
+    "type": "message",
+    "content": "进度更新：当前 Phase 2 已完成 14/19（73.7%），你的司情师新闻情绪设计仍在等待中。\n\n请尽快提交完整的4支柱设计（identity.md 180-220行 + routing.yaml 180-220行 + references/ 无限制 + executors/ 无限制强制读完），包含新闻正负面分布、宏观环境分析和自身能力占比设计。",
+    "timestamp": "2026-05-20T06:40:30.602Z",
+    "read": true
+  },
+  {
+    "id": "msg-1779259547506-glq0n0",
+    "from": "team-lead",
+    "to": "news-sentiment-analyst",
+    "type": "message",
+    "content": "收到！司情师·新闻情绪能力框架已确认，4支柱设计完整：\n- identity.md：STAR角色定义+80%自身能力占比\n- routing.yaml：4组触发关键词+5项质量门控\n- references/：情绪量化模型+宏观因子体系+行业标准\n- executors/：5阶段工作流+E1采集→E2量化→E3宏观→E4预警→E5报告\n\nPhase 2 进度：16/19（84.2%）",
+    "timestamp": "2026-05-20T06:45:47.506Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1779273054611",
+    "from": "team-lead",
+    "to": "news-sentiment-analyst",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1779273054611\",\"reason\":\"Phase 2 设计任务已完成，感谢贡献。现请求关闭。\",\"from\":\"team-lead\",\"timestamp\":\"2026-05-20T10:30:54.611Z\"}",
+    "timestamp": "2026-05-20T10:30:54.611Z",
+    "read": true
+  }
+]

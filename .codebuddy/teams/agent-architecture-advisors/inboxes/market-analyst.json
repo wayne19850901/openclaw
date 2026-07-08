@@ -1,0 +1,11 @@
+[
+  {
+    "id": "shutdown-1779273055267",
+    "from": "team-lead",
+    "to": "market-analyst",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1779273055267\",\"reason\":\"Phase 3.1 设计任务已完成，感谢贡献。现请求关闭。\",\"from\":\"team-lead\",\"timestamp\":\"2026-05-20T10:30:55.267Z\"}",
+    "timestamp": "2026-05-20T10:30:55.267Z",
+    "read": true
+  }
+]
