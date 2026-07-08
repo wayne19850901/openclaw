@@ -26,144 +26,8 @@
         "baseUrl": "https://ark.cn-beijing.volces.com/api/coding/v3",
         "models": [
           {
-            "id": "doubao-seed-2-1-pro-260628",
-            "name": "Doubao Seed 2.1 Pro",
-            "api": "openai-completions",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 131072,
-            "maxTokens": 32768
-          },
-          {
-            "id": "doubao-seed-2-1-turbo-260628",
-            "name": "Doubao Seed 2.1 Turbo",
-            "api": "openai-completions",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 131072,
-            "maxTokens": 32768
-          },
-          {
-            "id": "doubao-seed-2-0-pro-260215",
-            "name": "Doubao Seed 2.0 Pro",
-            "api": "openai-completions",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 131072,
-            "maxTokens": 32768
-          },
-          {
-            "id": "doubao-seed-2-0-code-preview-260215",
-            "name": "Doubao Seed 2.0 Code",
-            "api": "openai-completions",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 131072,
-            "maxTokens": 32768
-          },
-          {
-            "id": "doubao-seed-2-0-mini-260428",
-            "name": "Doubao Seed 2.0 Mini",
-            "api": "openai-completions",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 131072,
-            "maxTokens": 32768
-          },
-          {
-            "id": "doubao-seed-1-8-251228",
-            "name": "Doubao Seed 1.8",
-            "api": "openai-completions",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 131072,
-            "maxTokens": 32768
-          },
-          {
-            "id": "doubao-seed-1-6-251015",
-            "name": "Doubao Seed 1.6",
-            "api": "openai-completions",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 131072,
-            "maxTokens": 32768
-          },
-          {
-            "id": "doubao-seed-1-6-flash-250828",
-            "name": "Doubao Seed 1.6 Flash",
-            "api": "openai-completions",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 131072,
-            "maxTokens": 32768
-          },
-          {
-            "id": "doubao-seed-evolving",
-            "name": "Doubao Seed Evolving",
+            "id": "deepseek-v4-flash-260425",
+            "name": "DeepSeek-V4-Flash",
             "api": "openai-completions",
             "reasoning": false,
             "input": [
@@ -180,7 +44,7 @@
           },
           {
             "id": "deepseek-v4-pro-260425",
-            "name": "DeepSeek V4 Pro",
+            "name": "DeepSeek-V4-Pro",
             "api": "openai-completions",
             "reasoning": false,
             "input": [
@@ -196,8 +60,8 @@
             "maxTokens": 32768
           },
           {
-            "id": "deepseek-v4-flash-260425",
-            "name": "DeepSeek V4 Flash",
+            "id": "doubao-seed-2-0-pro-260215",
+            "name": "Doubao-Seed-2.0-pro",
             "api": "openai-completions",
             "reasoning": false,
             "input": [
@@ -211,6 +75,74 @@
             },
             "contextWindow": 131072,
             "maxTokens": 32768
+          },
+          {
+            "id": "doubao-seed-2-0-code-preview-260215",
+            "name": "Doubao-Seed-2.0-Code",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-5-2-260617",
+            "name": "glm-latest",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "minimax-m2.5",
+            "name": "MiniMax-M3",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 196608,
+            "maxTokens": 32768
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "Kimi-K2.6",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": 32768
           }
         ]
       }
@@ -218,19 +150,15 @@
   },
   "agents": {
     "defaults": {
-      "model": "volcengine-ark/doubao-seed-2-1-pro-260628",
+      "model": "volcengine-ark/deepseek-v4-flash-260425",
       "models": {
-        "volcengine-ark/doubao-seed-2-1-pro-260628": {},
-        "volcengine-ark/doubao-seed-2-1-turbo-260628": {},
+        "volcengine-ark/deepseek-v4-flash-260425": {},
+        "volcengine-ark/deepseek-v4-pro-260425": {},
+        "volcengine-ark/glm-5-2-260617": {},
         "volcengine-ark/doubao-seed-2-0-pro-260215": {},
         "volcengine-ark/doubao-seed-2-0-code-preview-260215": {},
-        "volcengine-ark/doubao-seed-2-0-mini-260428": {},
-        "volcengine-ark/doubao-seed-1-8-251228": {},
-        "volcengine-ark/doubao-seed-1-6-251015": {},
-        "volcengine-ark/doubao-seed-1-6-flash-250828": {},
-        "volcengine-ark/doubao-seed-evolving": {},
-        "volcengine-ark/deepseek-v4-pro-260425": {},
-        "volcengine-ark/deepseek-v4-flash-260425": {}
+        "volcengine-ark/minimax-m2.5": {},
+        "volcengine-ark/kimi-k2.5": {}
       },
       "workspace": "/Users/linwei/.claw/workspace",
       "memorySearch": {
