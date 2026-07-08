@@ -1,34 +1,10 @@
 {
     "version": 1,
     "profiles": {
-        "0": {
-            "id": "anthropic:manual",
-            "provider": "anthropic",
-            "type": "token",
-            "token": "__ANTHROPIC_API_KEY__"
-        },
-        "1": {
-            "id": "bytedance-seed:manual",
-            "provider": "bytedance-seed",
-            "type": "token",
-            "token": "__BYTEDANCE_SEED_KEY__"
-        },
-        "anthropic:manual": {
-            "type": "token",
-            "provider": "anthropic",
-            "token": "__ANTHROPIC_API_KEY__"
-        },
         "volcengine:manual": {
             "type": "token",
             "provider": "volcengine",
-            "token": "__VOLCENGINE_KEY__"
-        },
-        "openai-codex:default": {
-            "type": "oauth",
-            "provider": "openai-codex",
-            "access": "__OPENAI_CODEX_ACCESS_TOKEN__",
-            "refresh": "__OPENAI_CODEX_REFRESH_TOKEN__",
-            "expires_at": 0
+            "token": "__VOLCENGINE_API_KEY__"
         }
     }
 }
